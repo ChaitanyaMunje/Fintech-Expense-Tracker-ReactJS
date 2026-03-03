@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1024",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "name": "test"
+    },
+    {
+      "id": "f8ad",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "name": "test"
+    },
+    {
+      "id": "582e",
+      "email": "test1@gmail.com",
+      "password": "1234",
+      "name": "test"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "b915",
+      "title": "Test",
+      "amount": 2000,
+      "category": "Test",
+      "date": "2000-05-04",
+      "userId": "1024"
+    },
+    {
+      "id": "adcd",
+      "title": "Test",
+      "amount": 1234,
+      "category": "Heatl",
+      "date": "3002-05-04",
+      "userId": "1024"
+    }
+  ]
+}
