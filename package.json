@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "server": "json-server --watch db.json --port 5001",
+    "serve": "serve -s build -l 3000",
+    "start:prod": "concurrently \"npm run server\" \"npm run serve\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
